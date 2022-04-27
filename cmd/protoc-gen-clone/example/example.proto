@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+import "common1.proto";
+
+package example;
+option go_package = "gitlab.uuzu.com/war/pbtool/cmd/protoc-gen-clone/example;example";
+
+//专属装备抽卡
+// |DrawOnlyEquipBack
+message DrawOnlyEquipBack {
+	message DrawData {
+		map<string, int32> specialDrawCount = 1; // 特殊规则
+		int32 historyDrawCount = 10; //历史抽卡总次数
+		int32 resId = 11; //根据资源Id重制一些变量
+	}
+	map<int32, StudentMc> stu = 1;
+	map<int32, DrawData> drawData = 2;
+	map<int32,string>specialDrawCount = 10;
+}
+
+message StudentMc {
+	string name =1;
+}
+
+// |User
+message User {
+	common1.User User = 1;
+}
