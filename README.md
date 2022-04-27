@@ -14,4 +14,8 @@
 protoc -I=$(API_PATH) --proto_path=$(ROOT)/protos --proto_path=$(ROOT)/protos/out --proto_path==$(ROOT)/protos/in --proto_path=$(MODEL_PATH) --clone_out=plugins=clone,paths=source_relative:$(API_PATH) xxx.proto
 
 其余写法与protoc-gen-go一致,只需要更换--clone_out=plugins=clone就能生成克隆代码
+`````
+## 生成结果
+![img_2.png](img_2.png)
 
+``使用时只需要调用该对象的Clone方法``
