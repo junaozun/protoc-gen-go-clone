@@ -4,7 +4,7 @@ import (
 	"strings"
 	"unicode"
 
-	"gitlab.uuzu.com/war/pbtool/generator"
+	"github.com/junaozun/protoc-gen-go-clone/generator"
 
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
 )

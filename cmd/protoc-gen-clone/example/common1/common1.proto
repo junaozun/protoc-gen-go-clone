@@ -3,7 +3,7 @@ syntax = "proto3";
 import "common.proto";
 
 package common1;
-option go_package = "gitlab.uuzu.com/war/pbtool/cmd/protoc-gen-clone/example/common1;common1";
+option go_package = "github.com/junaozun/protoc-gen-go-clone/cmd/protoc-gen-clone/example/common1;common1";
 
 //Uint32Wrapper uint32的包装
 message Uint32Wrapper {

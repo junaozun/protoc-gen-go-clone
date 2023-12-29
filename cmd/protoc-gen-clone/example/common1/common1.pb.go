@@ -7,7 +7,7 @@
 package common1
 
 import (
-	common "gitlab.uuzu.com/war/pbtool/cmd/protoc-gen-clone/example/common"
+	common "github.com/junaozun/protoc-gen-go-clone/cmd/protoc-gen-clone/example/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

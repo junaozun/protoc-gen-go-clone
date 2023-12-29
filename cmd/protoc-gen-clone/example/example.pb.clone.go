@@ -6,8 +6,8 @@ package example
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	common "gitlab.uuzu.com/war/pbtool/cmd/protoc-gen-clone/example/common"
-	common1 "gitlab.uuzu.com/war/pbtool/cmd/protoc-gen-clone/example/common1"
+	common "github.com/junaozun/protoc-gen-go-clone/cmd/protoc-gen-clone/example/common"
+	common1 "github.com/junaozun/protoc-gen-go-clone/cmd/protoc-gen-clone/example/common1"
 	math "math"
 )
 

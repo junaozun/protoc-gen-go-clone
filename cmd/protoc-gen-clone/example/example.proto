@@ -3,7 +3,7 @@ syntax = "proto3";
 import "common1.proto";
 
 package example;
-option go_package = "gitlab.uuzu.com/war/pbtool/cmd/protoc-gen-clone/example;example";
+option go_package = "github.com/junaozun/protoc-gen-go-clone/cmd/protoc-gen-clone/example;example";
 
 //专属装备抽卡
 // |DrawOnlyEquipBack

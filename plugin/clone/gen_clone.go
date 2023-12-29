@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"gitlab.uuzu.com/war/pbtool/pkg/tmpl"
+	"github.com/junaozun/protoc-gen-go-clone/pkg/tmpl"
 )
 
 type genClone struct {

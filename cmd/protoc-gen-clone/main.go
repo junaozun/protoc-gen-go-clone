@@ -1,8 +1,8 @@
 package main
 
 import (
-	"gitlab.uuzu.com/war/pbtool/generator"
-	"gitlab.uuzu.com/war/pbtool/plugin/clone"
+	"github.com/junaozun/protoc-gen-go-clone/generator"
+	"github.com/junaozun/protoc-gen-go-clone/plugin/clone"
 )
 
 func main() {

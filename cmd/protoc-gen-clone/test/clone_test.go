@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"gitlab.uuzu.com/war/pbtool/cmd/protoc-gen-clone/example"
-	"gitlab.uuzu.com/war/pbtool/cmd/protoc-gen-clone/example/common"
+	"github.com/junaozun/protoc-gen-go-clone/cmd/protoc-gen-clone/example"
+	"github.com/junaozun/protoc-gen-go-clone/cmd/protoc-gen-clone/example/common"
 )
 
 func TestGenTestPb(t *testing.T) {
